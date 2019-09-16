@@ -5,8 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+  <!-- Add a favicon -->
+ <link rel= "icon" type= "image/png" href= "/icon.png">
 </head>
 <body>
+      <!-- Add logo/ website title inside <header> -->
+        <header>
+        <h2>website title/logo</h2>
+        <img src= "http://via.placeholder.com/20x20" alt= "logo">
+    <!-- Add navigation bar in <header> [home, project, about me, contact] -->
+        <nav>
+            <a href= "#">Home</a>
+            <a href= "#">Projects</a>
+            <a href= "#">About me</a>
+            <a href= "#">Contact</a>
+        </nav>
+     </header>
+      <!-- create two colums -->
+      <!-- Add an iframe, contact adress and a contact phone number, social media icons in the first column -->
+        <div>
+        <div class="column" stlye="background-color: ;">
+            <!-- iframe(google map)-->
+            <p>
+               <img src= "http://via.placeholder.com/20x20" alt= "logo">
+            </p>
+            <!-- contact adress -->
+            <p>
+               Address:
+               phone:
+            </p>
+            <!-- social mediaicons -->
+            <p>
+               <img src= "http://via.placeholder.com/20x20" alt= "logo">
+               <img src= "http://via.placeholder.com/20x20" alt= "logo">
+               <img src= "http://via.placeholder.com/20x20" alt= "logo">
+               <img src= "http://via.placeholder.com/20x20" alt= "logo">
+            </p>
+        </div>
+    </div>
+   
+      <!-- Add a contact form in the second column -->
+    <form action="/action_page.php" method="POST" target="_blank">
+         Name: <br>
+         <input name="name" type="text" size="30"/><br><br>
+         Email: <br>
+         <input name="Email" type="text" size="30"/><br><br>
+         Message: <br>
+         <textarea name="message" cols="30" rows="5"></textarea>
+         <br>
+         <p><input type="submit" value="Send" /></p>
+     </form>
     
 </body>
 </html>
