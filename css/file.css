@@ -56,6 +56,9 @@ h4{
     color: white;
    
 }
+.inl{
+    display: inline-block;
+}
 img{
     box-align: right;
 }
